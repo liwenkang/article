@@ -692,7 +692,7 @@ h1 {
 
     ul 无 border 时:
 
-        ul-margin(li-margin) =  MAX(如果正,如果正,如果正) + MAX(|如果负|,|如果负|,|如果负|), 也就是留个位置选三个位置填上去
+        ul-margin(li-margin) =  MAX(如果正,如果正,如果正) + MAX(|如果负|,|如果负|,|如果负|), 也就是六个位置选三个位置填上去
 
     ul 有 border 时:
 
