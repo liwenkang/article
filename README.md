@@ -693,7 +693,9 @@ h1 {
     ul 无 border 时:
 
         ul-margin(li-margin) =  MAX(如果正,如果正,如果正) + MAX(|如果负|,|如果负|,|如果负|), 也就是六个位置选三个位置填上去
+        
     （最近发现：如果父元素 ul 设置了固定高度，那么子元素 li 设置 margin-bottom 是不会生效的，相当于此时只考虑 ul 的margin-bottom 和 h1 的margin-top）
+    
     ul 有 border 时:
 
         ul-margin = MAX(如果|ul 的 margin-bottom|为正, 如果|h1 的 margin-top|为正) + MAX(如果|ul 的 margin-bottom|为负, 如果|h1 的 margin-top|为负), 也就是四个位置选两个位置填上去
