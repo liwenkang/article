@@ -1,0 +1,11 @@
+{
+  "name": "connect-mongodb",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "liwenkang",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mongodb": "^3.0.0-rc0"
+  }
+}
