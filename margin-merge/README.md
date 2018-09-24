@@ -54,7 +54,7 @@ h1 {
 }
 ```
 
-![效果图](pic1.jpg)
+![效果图](img/pic1.jpg)
 
     由于 50 > 20 所以合并后 ul-margin 为 50
 
@@ -76,7 +76,7 @@ h1 {
 }
 ```
 
-![效果图](pic2.jpg)
+![效果图](img/pic2.jpg)
 
     由于 20 + (-50) = -30 所以合并后 ul-margin 为 -30
 
@@ -98,7 +98,7 @@ h1 {
 }
 ```
 
-![效果图](pic3.jpg)
+![效果图](img/pic3.jpg)
 
     由于 20 + (-50) = -30 所以合并后 ul-margin 为 -30
 
@@ -120,7 +120,7 @@ h1 {
 }
 ```
 
-![效果图](pic4.jpg)
+![效果图](img/pic4.jpg)
 
     由于 |-50| > |-20|, 所以合并后的 ul-margin 为 -50px
 
@@ -161,7 +161,7 @@ h1 {
 }
 ```
 
-![效果图](pic5.jpg)
+![效果图](img/pic5.jpg)
 
     50 > 20 所以
     此时的 ul-margin = ul 的 margin-bottom = 50
@@ -185,7 +185,7 @@ h1 {
     background-color: rgba(0,256,0,0.3);
 }
 ```
-![效果图](pic6.jpg)
+![效果图](img/pic6.jpg)
 
     由于一正一负 所以
 
@@ -210,7 +210,7 @@ h1 {
     background-color: rgba(0,256,0,0.3);
 }
 ```
-![效果图](pic7.jpg)
+![效果图](img/pic7.jpg)
 
     由于一正一负 所以
 
@@ -237,7 +237,7 @@ h1 {
 }
 ```
 
-![效果图](pic8.jpg)
+![效果图](img/pic8.jpg)
 
     由于 |-50| > |-20| 所以
 
@@ -286,7 +286,7 @@ h1 {
 }
 ```
 
-![效果图](pic9.jpg)
+![效果图](img/pic9.jpg)
 
     由于 50 > 20 所以 先取 50
     50 > 30 所以 ul-margin 为 50
@@ -310,7 +310,7 @@ h1 {
 }
 ```
 
-![效果图](pic10.jpg)
+![效果图](img/pic10.jpg)
 
     由于 100 > 20 所以 先取 100
     100 + (-50) = 50 所以 ul-margin 为 50
@@ -336,7 +336,7 @@ h1 {
 }
 ```
 
-![效果图](pic11.jpg)
+![效果图](img/pic11.jpg)
 
     由于 100 > 50 取 100
     100 + (-20) = 80 所以 ul-margin 为 80
@@ -360,7 +360,7 @@ h1 {
 }
 ```
 
-![效果图](pic12.jpg)
+![效果图](img/pic12.jpg)
 
     由于 |-50| > |-20| 取 -50
     100 + (-50) = 50 所以 ul-margin 为 50
@@ -384,7 +384,7 @@ h1 {
 }
 ```
 
-![效果图](pic13.jpg)
+![效果图](img/pic13.jpg)
 
     由于 50 > 20 取 50
     50 + (-100) = -50  所以 ul-margin 为 -50
@@ -409,7 +409,7 @@ h1 {
 }
 ```
 
-![效果图](pic14.jpg)
+![效果图](img/pic14.jpg)
 
     |-100| > |-50| 取 -100
     (-100) + 20 = -80 所以 ul-margin 为 80
@@ -433,7 +433,7 @@ h1 {
 }
 ```
 
-![效果图](pic15.jpg)
+![效果图](img/pic15.jpg)
 
     |-50| > |-20| 取 -50
     (-50) + 80 = 30 所以 ul-margin 为 30
@@ -457,7 +457,7 @@ h1 {
 }
 ```
 
-![效果图](pic16.jpg)
+![效果图](img/pic16.jpg)
 
     因为 |-50| > |-20| 取 -50
     |-50| < |-80| ul-margin 取 -80
@@ -494,7 +494,7 @@ h1 {
 }
 ```
 
-![效果图](pic17.jpg)
+![效果图](img/pic17.jpg)
 
     因为 ul 的 margin-bottom > h1 的 margin-top 所以 ul-margin 为 50
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom = 75
@@ -519,7 +519,7 @@ h1 {
 }
 ```
 
-![效果图](pic18.jpg)
+![效果图](img/pic18.jpg)
 
     因为 ul 的 margin-bottom + h1 的 margin-top = 50 所以 ul-margin 为 50
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom + h1 的 margin-top = 75
@@ -546,7 +546,7 @@ h1 {
 }
 ```
 
-![效果图](pic19.jpg)
+![效果图](img/pic19.jpg)
 
     因为 ul 的 margin-bottom > h1 的 margin-top 所以 ul-margin 为 100
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom = 85
@@ -571,7 +571,7 @@ h1 {
 }
 ```
 
-![效果图](pic20.jpg)
+![效果图](img/pic20.jpg)
 
     因为 ul 的 margin-bottom + h1 的 margin-top = 50 所以 ul-margin 为 50
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom + h1 的 margin-top = 35
@@ -596,7 +596,7 @@ h1 {
 }
 ```
 
-![效果图](pic21.jpg)
+![效果图](img/pic21.jpg)
 
     因为 ul 的 margin-bottom + h1 的 margin-top = -50 所以 ul-margin 为 -50
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom + h1 的 margin-top = -25
@@ -621,7 +621,7 @@ h1 {
 }
 ```
 
-![效果图](pic22.jpg)
+![效果图](img/pic22.jpg)
 
     因为 |ul 的 margin-bottom| > |h1 的 margin-top| = -50 所以 ul-margin 为 -100
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom = -75
@@ -647,7 +647,7 @@ h1 {
 }
 ```
 
-![效果图](pic23.jpg)
+![效果图](img/pic23.jpg)
 
     因为 ul 的 margin-bottom + h1 的 margin-top = 30 所以 ul-margin 为 30
     li-margin = ul 的 margin-bottom + ul 的 border + li 的 margin-bottom + h1 的 margin-top = 15
@@ -672,7 +672,7 @@ h1 {
 }
 ```
 
-![效果图](pic24.jpg)
+![效果图](img/pic24.jpg)
 
     因为 |ul 的 margin-bottom| < |h1 的 margin-top| 所以 ul-margin 为 -80
     li-margin = ul 的 border + li 的 margin-bottom + h1 的 margin-top = -95
