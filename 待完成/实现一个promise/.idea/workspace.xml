@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24a4b94a-0f48-4464-b790-82d32a11995e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ECMAScript 6 入门/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ECMAScript 6 入门/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2520">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threePromise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="e#118#188#0" />
+                <element signature="e#622#1144#0" />
+                <element signature="e#658#908#0" />
+                <element signature="e#692#746#0" />
+                <element signature="e#752#890#0" />
+                <element signature="e#915#1129#0" />
+                <element signature="e#949#1003#0" />
+                <element signature="e#1009#1111#0" />
+                <element signature="e#1150#1192#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RightPromise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2030">
+              <caret line="145" selection-start-line="145" selection-end-line="159" />
+              <folding>
+                <element signature="e#517#590#0" />
+                <element signature="n#!!block;n#reject#0;n#!!block;n#MyPromise#0" />
+                <element signature="e#684#993#0" />
+                <element signature="e#744#983#0" />
+                <element signature="e#895#969#0" />
+                <element signature="e#1010#1051#0" />
+                <element signature="e#1067#1097#0" />
+                <element signature="e#1230#1314#0" />
+                <element signature="e#1348#1729#0" />
+                <element signature="e#1386#1565#0" />
+                <element signature="e#1469#1546#0" />
+                <element signature="e#1571#1708#0" />
+                <element signature="e#2548#2574#0" />
+                <element signature="e#2639#4515#0" />
+                <element signature="e#2756#2780#0" />
+                <element signature="e#2859#2882#0" />
+                <element signature="e#2920#3303#0" />
+                <element signature="e#2989#3296#0" />
+                <element signature="e#3026#3285#0" />
+                <element signature="e#3066#3201#0" />
+                <element signature="e#3217#3271#0" />
+                <element signature="e#3341#3724#0" />
+                <element signature="e#3410#3717#0" />
+                <element signature="e#3447#3706#0" />
+                <element signature="e#3487#3622#0" />
+                <element signature="e#3638#3692#0" />
+                <element signature="e#3761#4513#0" />
+                <element signature="e#3918#4506#0" />
+                <element signature="e#3978#4205#0" />
+                <element signature="e#4000#4131#0" />
+                <element signature="e#4142#4191#0" />
+                <element signature="e#4267#4495#0" />
+                <element signature="e#4289#4421#0" />
+                <element signature="e#4432#4481#0" />
+                <element signature="e#4568#4729#0" />
+                <element signature="e#4646#4711#0" />
+                <element signature="e#4735#4769#0" />
+                <element signature="e#4780#4783#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/four.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4830">
+              <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5810">
+              <caret line="166" selection-start-line="166" selection-end-line="180" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/six.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1855">
+              <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding>
+                <element signature="e#4332#4493#0" />
+                <element signature="e#4410#4475#0" />
+                <element signature="e#4499#4533#0" />
+                <element signature="e#4544#4547#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seven.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="n#!!block;n#f#0" />
+                <element signature="n#!!block;n#resolve#0;n#!!block;n#MyPromise#0" />
+                <element signature="e#235#259#0" />
+                <element signature="e#328#352#0" />
+                <element signature="e#373#405#0" />
+                <element signature="e#541#581#0" />
+                <element signature="n#!!block;n#reject#0;n#!!block;n#MyPromise#0" />
+                <element signature="e#703#727#0" />
+                <element signature="e#748#780#0" />
+                <element signature="e#917#957#0" />
+                <element signature="e#252#268#0" />
+                <element signature="e#304#320#0" />
+                <element signature="e#1153#1161#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resolver</find>
+      <find>resolvePromise</find>
+      <find>defer</find>
+      <find>2.2.2</find>
+      <find>require</find>
+      <find>throw</find>
+      <find>Promise</find>
+      <find>called</find>
+      <find>onResolvedCallback</find>
+      <find>=== 'pending</find>
+      <find>if (x instanceof</find>
+      <find>onRejectedCallback</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/大喵版本的 promise.js" />
+        <option value="$PROJECT_DIR$/promise.js" />
+        <option value="$PROJECT_DIR$/MyPromise.js" />
+        <option value="$PROJECT_DIR$/RightPromise.js" />
+        <option value="$PROJECT_DIR$/question.js" />
+        <option value="$PROJECT_DIR$/second.js" />
+        <option value="$PROJECT_DIR$/threePromise.js" />
+        <option value="$PROJECT_DIR$/测试.js" />
+        <option value="$PROJECT_DIR$/four.js" />
+        <option value="$PROJECT_DIR$/five.js" />
+        <option value="$PROJECT_DIR$/six.js" />
+        <option value="$PROJECT_DIR$/seven.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="273" />
+    <option name="width" value="1382" />
+    <option name="height" value="464" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="实现一个promise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="实现一个promise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.seven.js">
+    <configuration name="MyPromise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/MyPromise.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="测试.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/测试.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="question.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/question.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="second.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/second.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="seven.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/seven.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.seven.js" />
+        <item itemvalue="Node.js.测试.js" />
+        <item itemvalue="Node.js.question.js" />
+        <item itemvalue="Node.js.second.js" />
+        <item itemvalue="Node.js.MyPromise.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24a4b94a-0f48-4464-b790-82d32a11995e" name="Default Changelist" comment="" />
+      <created>1547017809762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547017809762</updated>
+      <workItem from="1547017812982" duration="8774000" />
+      <workItem from="1547080975099" duration="3666000" />
+      <workItem from="1547084732854" duration="25663000" />
+      <workItem from="1547169898522" duration="12186000" />
+      <workItem from="1547426594359" duration="4442000" />
+      <workItem from="1547464964824" duration="1857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56588000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2526475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3989726" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27739727" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3296355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Run" order="3" weight="0.36896047" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.promise.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promises-aplus-tests" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPromise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#5798#5848#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试.js" />
+    <entry file="file://$PROJECT_DIR$/second.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threePromise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#118#188#0" />
+            <element signature="e#622#1144#0" />
+            <element signature="e#658#908#0" />
+            <element signature="e#692#746#0" />
+            <element signature="e#752#890#0" />
+            <element signature="e#915#1129#0" />
+            <element signature="e#949#1003#0" />
+            <element signature="e#1009#1111#0" />
+            <element signature="e#1150#1192#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RightPromise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="145" selection-start-line="145" selection-end-line="159" />
+          <folding>
+            <element signature="e#517#590#0" />
+            <element signature="n#!!block;n#reject#0;n#!!block;n#MyPromise#0" />
+            <element signature="e#684#993#0" />
+            <element signature="e#744#983#0" />
+            <element signature="e#895#969#0" />
+            <element signature="e#1010#1051#0" />
+            <element signature="e#1067#1097#0" />
+            <element signature="e#1230#1314#0" />
+            <element signature="e#1348#1729#0" />
+            <element signature="e#1386#1565#0" />
+            <element signature="e#1469#1546#0" />
+            <element signature="e#1571#1708#0" />
+            <element signature="e#2548#2574#0" />
+            <element signature="e#2639#4515#0" />
+            <element signature="e#2756#2780#0" />
+            <element signature="e#2859#2882#0" />
+            <element signature="e#2920#3303#0" />
+            <element signature="e#2989#3296#0" />
+            <element signature="e#3026#3285#0" />
+            <element signature="e#3066#3201#0" />
+            <element signature="e#3217#3271#0" />
+            <element signature="e#3341#3724#0" />
+            <element signature="e#3410#3717#0" />
+            <element signature="e#3447#3706#0" />
+            <element signature="e#3487#3622#0" />
+            <element signature="e#3638#3692#0" />
+            <element signature="e#3761#4513#0" />
+            <element signature="e#3918#4506#0" />
+            <element signature="e#3978#4205#0" />
+            <element signature="e#4000#4131#0" />
+            <element signature="e#4142#4191#0" />
+            <element signature="e#4267#4495#0" />
+            <element signature="e#4289#4421#0" />
+            <element signature="e#4432#4481#0" />
+            <element signature="e#4568#4729#0" />
+            <element signature="e#4646#4711#0" />
+            <element signature="e#4735#4769#0" />
+            <element signature="e#4780#4783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/four.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5810">
+          <caret line="166" selection-start-line="166" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/six.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1855">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="e#4332#4493#0" />
+            <element signature="e#4410#4475#0" />
+            <element signature="e#4499#4533#0" />
+            <element signature="e#4544#4547#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seven.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="n#!!block;n#f#0" />
+            <element signature="n#!!block;n#resolve#0;n#!!block;n#MyPromise#0" />
+            <element signature="e#235#259#0" />
+            <element signature="e#328#352#0" />
+            <element signature="e#373#405#0" />
+            <element signature="e#541#581#0" />
+            <element signature="n#!!block;n#reject#0;n#!!block;n#MyPromise#0" />
+            <element signature="e#703#727#0" />
+            <element signature="e#748#780#0" />
+            <element signature="e#917#957#0" />
+            <element signature="e#252#268#0" />
+            <element signature="e#304#320#0" />
+            <element signature="e#1153#1161#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

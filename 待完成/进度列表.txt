@@ -1,0 +1,9 @@
+尝试 fetch
+=> 使用 node 开一个 server 
+=> 测试 ajax, jquery ajax, fetch, axios, 分析优劣
+
+引入测试
+
+引入ts
+
+函数式编程

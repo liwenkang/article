@@ -1,0 +1,15 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "a web server",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.1"
+  }
+}

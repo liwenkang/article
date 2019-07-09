@@ -1,0 +1,19 @@
+{
+  "name": "typescript-from-start-to-give-up",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "keywords": [
+    "typescript"
+  ],
+  "scripts": {
+    "eslint": "eslint hello.ts"
+  },
+  "author": "liwenkang",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-alloy": "2.0.0-alpha.3",
+    "typescript": "^3.4.5"
+  }
+}

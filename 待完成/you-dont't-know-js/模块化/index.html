@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function foo() {
+        console.log( this.a );
+    }
+    var a = 2;
+    (function(){
+        "use strict";
+        foo(); // 2
+    })();
+
+</script>
+</body>
+</html>
