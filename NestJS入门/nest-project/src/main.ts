@@ -5,6 +5,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  // 开启文档
   const options = new DocumentBuilder()
     .setTitle('中心站改造文档')
     .setDescription('这是中心站改造的文档啊!')

@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { NetworkParameterPlanningService } from './network-parameter-planning.service';
+import { NetworkParameterPlanningService } from '../network-parameter-planning.service';
 
 describe('NetworkParameterPlanningService', () => {
   let service: NetworkParameterPlanningService;

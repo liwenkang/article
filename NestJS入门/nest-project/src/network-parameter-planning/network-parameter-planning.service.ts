@@ -2,9 +2,17 @@ import { Injectable } from '@nestjs/common';
 
 // 在这里写详细的业务代码
 @Injectable()
-export class NetworkParameterPlanningService {
-  public GetNetworkTree(res): any {
-    res.json([{
+export default class NetworkParameterPlanningService {
+  public Login(res, userInfoDto): any {
+    if (userInfoDto.username === '123' && userInfoDto.password === '123') {
+      res.send(userInfoDto);
+    } else {
+      res.status(401).send('用户名或者密码错误');
+    }
+  }
+
+  public GetNetworkTree(): any {
+    return [{
       taskID: 123,
       taskName: 'TDMA保障任务',
       taskNets: [{
@@ -16,11 +24,11 @@ export class NetworkParameterPlanningService {
         netName: 'TDMA网1',
         // todo 所有关于版本 confVersions 以及配置状态 confStatus 的信息都移到右侧表格中显示
       }],
-    }]);
+    }];
   }
 
-  public GetNetworkConfParams(res): any {
-    res.json({
+  public GetNetworkConfParams(): any {
+    return {
       confVersions: [
         // todo 默认 confVersions 第一项是最新的,或者加个标识
         {
@@ -559,6 +567,24 @@ export class NetworkParameterPlanningService {
           },
         },
       ],
-    });
+    };
+  }
+
+  public NetPlanSend(): any {
+    return {
+      // 规划结果 1成功 其他失败
+      result: 1,
+      // 规划结果描述
+      description: '成功',
+    };
+  }
+
+  public NetSync(): any {
+    return {
+      // 同步结果 1成功 其他失败
+      result: 1,
+      // 规划结果描述
+      description: '成功',
+    };
   }
 }

@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { NetworkParameterPlanningController } from './network-parameter-planning.controller';
+import { NetworkParameterPlanningController } from '../network-parameter-planning.controller';
 
 describe('NetworkParameterPlanning Controller', () => {
   let controller: NetworkParameterPlanningController;
