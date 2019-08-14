@@ -59,7 +59,7 @@ async function run() {
 4. 运行模型
 5. 模型评估
 
-![流程图](D:\study\tensorflow\images\流程图.png)
+![流程图](https://github.com/liwenkang/article/raw/master/tensorflow/images/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 拓展训练
 
@@ -69,7 +69,7 @@ async function run() {
 
 截至目前,最好的拟合如下图所示
 
-![效果图](D:\study\tensorflow\images\效果图.png)
+![效果图](https://github.com/liwenkang/article/raw/master/tensorflow/images/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
 代码如下
 
