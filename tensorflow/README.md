@@ -14,7 +14,13 @@ npm install @tensorflow/tfjs
 
 特别说明，如果数据看起来就是随机的，没有结构模式的，也就是我们感觉总结不出来规律的时候，这个模型明显就凉了。
 
-tf 提供了一个连续模型的创建方法 const model = tf.sequential(); ，我们可以在这个模型上添加不同的 layer，此处的 layer 在表现形式上不是前端前端地图中的图层概念，而是作为 model 表格中的一行，而且看下面图层添加的语句
+tf 提供了一个顺序模型(就像是一层一层的积木)的创建方法
+
+```javascript
+const model = tf.sequential()
+```
+
+我们可以在这个模型上添加不同的 layer，此处的 layer 在表现形式上不是前端地图中的图层概念，而是作为 model 表格中的一行，而且看下面图层添加的语句
 
 ```javascript
 model.add(tf.layers.dense({ inputShape: [1], units: 1, useBias: true }));
@@ -42,10 +48,10 @@ async function run() {
 
 具体的训练步骤
 
-1. 训练之前,先指定一个优化器 optimizer ,一个处理偏差数据的函数 loss
+1. 训练之前,先指定一个优化器 optimizer ,一个函数 loss 表示当前数据下，模型预测值和真实值之间的好坏情况
 2. 指定玄学的批量处理大小 batchSize (它类似于指定程序占用的内存, 对于图形领域,我们一般要把这个调到GPU能承受的最大值,官方推荐 32-512 ),以及迭代次数 epochs
 3. 写出真正的训练函数,传入 batchSize 和 epochs, 指定处理结果的回调
-4. 在 run() 中调用 trainModel,传入我们创建的 model, 以及经过处理的 inputs 数据, labels 数据.
+4. 在 run() 中调用 trainModel,传入我们创建的 model, 以及经过处理的 inputs 数据, labels 数据
 5. 在页面上看到模拟效果(就这点数据,竟然这么慢......),将散点模拟成了一条连续的光滑曲线.(我咋觉得这么像之前自动控制原理里的一种曲线模拟呢?那会是用 matlab 做的,那么 tensorflow 做了什么?跟 matlab 做的是一样的事情吗?留作思考题)
 
 
@@ -93,13 +99,8 @@ function createModel() {
     const model = tf.sequential();
 
     // Add a single hidden layer
-    model.add(tf.layers.dense({ inputShape: [1], units: 1, useBias: true }));
-
-    model.add(tf.layers.dense({units: 50, activation: 'sigmoid'}));
-    model.add(tf.layers.dense({units: 50, activation: 'sigmoid'}));
-    model.add(tf.layers.dense({units: 50, activation: 'sigmoid'}));
-    model.add(tf.layers.dense({units: 50, activation: 'sigmoid'}));
-    model.add(tf.layers.dense({units: 50, activation: 'sigmoid'}));
+    model.add(tf.layers.dense({ inputShape: [1], units: 10, useBias: true, activation: 'relu' }));
+    model.add(tf.layers.dense({ inputShape: [1], units: 10, useBias: true, activation: 'relu' }));
 
     // Add an output layer
     model.add(tf.layers.dense({ units: 1, useBias: true }));
@@ -166,11 +167,11 @@ async function trainModel(model, inputs, labels) {
         metrics: ['mse'],
     });
 
-    // 这是一个玄学参数(需要多次调参才能确定最大值,在图形领域,一般要把GPU跑满)
+    // 这是一个玄学参数(需要多次调参才能确定最大值,在图形领域,一般要把GPU内存跑满)
     // 官方给的参考范围是 32-512
     const batchSize = 32;
     // 迭代次数
-    const epochs = 50;
+    const epochs = 100;
 
     // 开启模型训练
     return await model.fit(inputs, labels, {
@@ -270,3 +271,8 @@ async function run() {
 document.addEventListener('DOMContentLoaded', run);
 ```
 
+## 修正记录:
+
+2019年8月14日 16:16:15 
+
+经过 [Cugtyt](https://github.com/Cugtyt) 同学的细心指导,改正了部分错误.在经过神奇的调参后,效果还真不错,炼丹有了突破, awesome man!
